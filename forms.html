@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+  </head>
+  <body>
+    <form action="" method="">
+      <div>
+        <label for="fname">first name:</label>
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="Astley"
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="lname">last name:&nbsp;</label>
+        <input
+          type="text"
+          id="lname"
+          name="lname"
+          placeholder="Rick"
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="email"
+          >email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+        >
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="123@gmail.com"
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="password">password:&nbsp;</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="87878787"
+          maxlength="20"
+          required
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="phone">phone: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="tel" name="phone" id="phone" placeholder="0987654321" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="birthdate">birthdate:&nbsp;&nbsp;</label>
+        <input type="date" name="birthdate" id="birthdate" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="quantity">quantity:&nbsp;&nbsp;&nbsp;</label>
+        <input
+          type="number"
+          name="quantity"
+          id="quantity"
+          min="0"
+          max="3"
+          value="0"
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="gender">gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+
+        <label for="Mr.">Mr.</label>
+        <input type="radio" name="gender" id="Mr." />
+
+        <label for="Mrs.">Mrs.</label>
+        <input type="radio" name="gender" id="Mrs." />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="payment">payment:&nbsp;&nbsp;</label>
+        <select name="payment" id="payment">
+          <option value="visa">visa</option>
+          <option value="cash">cash</option>
+          <option value="giftcard">giftcard</option>
+        </select>
+      </div>
+
+      <br />
+
+      <div>
+        <label for="like"
+          >like:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+        >
+        <input type="checkbox" name="like" id="like" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="color">hat color:&nbsp;&nbsp;</label>
+        <input type="color" name="color" id="color" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="file"
+          >file:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+        >
+        <input type="file" name="file" id="file" accept=".txt" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="fire"
+          >fire:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+        >
+        <input type="range" name="fire" id="fire" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="search">search:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="search" name="search" id="search" />
+      </div>
+
+      <br />
+
+      <div>
+        <input type="reset" />
+      </div>
+
+      <br />
+
+      <div>
+        <input type="submit" />
+      </div>
+    </form>
+  </body>
+</html>
